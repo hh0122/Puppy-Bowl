@@ -1,11 +1,73 @@
-h1 {
-  text-align: center;
-}
+/* General Styling */
 body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
   background-color: beige;
+  color: #333;
 }
+
+main {
+  max-width: 800px;
+  margin: auto;
+}
+
+/* Team List Styling */
+ol {
+  list-style-type: none;
+  padding: 0;
+}
+
+ol li {
+  background-color: #e2e8f0;
+  margin-bottom: 15px;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h3 {
+  margin: 0 0 5px;
+  color: #2b6cb0;
+}
+
+p {
+  margin: 5px 0;
+}
+
+button {
+  padding: 8px 12px;
+  background-color: #3182ce;
+  border: none;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #2c5282;
+}
+
+/* Player Card Styling */
 .div {
+  background-color: #edf2f7;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   display: flex;
   flex-direction: column;
   align-items: center;
 }
+
+.div img {
+  margin-top: 10px;
+  border-radius: 8px;
+}
+
+h2 {
+  color: #2b6cb0;
+}
+
